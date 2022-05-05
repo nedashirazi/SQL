@@ -1,0 +1,22 @@
+CREATE TABLE furniturestore(id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, madein TEXT, color TEXT);
+
+INSERT INTO furniturestore VALUES
+(1,"coffeetable",5,150,"china","white"),
+(2,"couch",3,300,"iran","brown"),
+(3,"dinningtable",6,900,"italy","light brown"),
+(4,"chair",7,100,"china","dark brown"),
+(5,"bookshelf",3,90,"china","white"),
+(6,"nightstand",10,85,"italy","darkbrown"),
+(7,"dresser",9,160,"thailand","white"),
+(8,"desk",4,110,"china","black"),
+(9,"armchair",5,115,"iran","grey"),
+(10,"bench",2,75,"china","dark brown"),
+(11,"bed",12,350,"china","white"),
+(12,"loveseat",6,190,"tailand","white"),
+(13,"chaiselongue",9,135,"china","black"),
+(14,"lamps",14,55,"china","white"),
+(15,"console",8,180,"china","gold");
+
+SELECT name FROM furniturestore ORDER BY price ASC;
+SELeCT SUM(quantity) FROM furniturestore;
+SELeCT MAX(price) FROM furniturestore ;
