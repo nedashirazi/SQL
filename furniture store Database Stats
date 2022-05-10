@@ -1,3 +1,6 @@
+
+## Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.
+
 CREATE TABLE furniturestore(id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, madein TEXT, color TEXT);
 
 INSERT INTO furniturestore VALUES
