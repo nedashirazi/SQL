@@ -20,6 +20,6 @@ INSERT INTO furniturestore VALUES
 (14,"lamps",14,55,"china","white"),
 (15,"console",8,180,"china","gold");
 
-SELECT name FROM furniturestore ORDER BY price ASC;
+SELECT name,price FROM furniturestore ORDER BY price ASC;
 SELeCT SUM(quantity) FROM furniturestore;
 SELeCT MAX(price) FROM furniturestore ;
