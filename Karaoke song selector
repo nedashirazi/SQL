@@ -1,3 +1,6 @@
+## Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.
+here we are going to show the titles of songs that are 'epic', and released after 1990, and less than 4 minutes long.
+
 CREATE TABLE songs (
     id INTEGER PRIMARY KEY,
     title TEXT,
