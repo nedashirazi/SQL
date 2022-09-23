@@ -1,5 +1,6 @@
 
 ## Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.
+the challange here is to make a table that contains 15 items and using select and order statment showing some statistic. 
 
 CREATE TABLE furniturestore(id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, madein TEXT, color TEXT);
 
@@ -21,5 +22,5 @@ INSERT INTO furniturestore VALUES
 (15,"console",8,180,"china","gold");
 
 SELECT name,price FROM furniturestore ORDER BY price ASC;
-SELeCT SUM(quantity) FROM furniturestore;
-SELeCT MAX(price) FROM furniturestore ;
+SELeCT name,SUM(quantity) FROM furniturestore;
+SELeCT name,MAX(price) FROM furniturestore ;
