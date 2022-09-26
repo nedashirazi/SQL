@@ -1,5 +1,5 @@
 ##select all the authors who have written more than 1 million word.
-## select all the authors that write more than an average of 150,000 words per book.
+## select all the authors who have written more than an average of 150,000 words per book.
 CREATE TABLE books (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     author TEXT,
