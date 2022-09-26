@@ -1,3 +1,4 @@
+##THE database contains student grades, with their name, number grade, and what percent of activities they've completed. 
 ##select all of the rows, and display the name, number_grade, and percent_completed.
 ## make a table that shows how many students have earned which letter_grade. You can output the letter_grade by using CASE with the number_grade column, outputting 'A' for grades > 90, 'B' for grades > 80, 'C' for grades > 70, and 'F' otherwise
 CREATE TABLE student_grades (
