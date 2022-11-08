@@ -91,6 +91,16 @@ JOIN chinook.employees e ON c.SupportRepid = e.Employeeid
 JOIN chinook.invoice_items ii ON i.Invoiceid = ii.invoiceid
 JOIN chinook.tracks t ON ii.Trackid = t.Trackid; 
 
+#16 What Genre does the Germans listen to ?
+SELECT g.Name AS genre FROM chinook.invoices i
+ JOIN (SELECT * FROM chinook.customers WHERE Country = 'Germany') c ON i.Customerid = c.Customerid
+ JOIN chinook.invoice_items ii ON i.Invoiceid = ii.Invoiceid
+ JOIN chinook.tracks t ON ii.Trackid = t.Trackid
+ JOIN chinook.genres g ON t.Genreid = g.Genreid GROUP BY Genre ;
+ 
+ 
+ 
+
 
 
 
